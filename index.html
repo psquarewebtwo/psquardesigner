@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	
+
+	<!-- Touch icons for android and iOS (Bookmark icons) -->
+	<link rel="shortcut icon" sizes="196x196" href="images/icons/icon-196x196.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/icons/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/icons/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/icons/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/icons/touch-icon-ipad-retina.png">
+
+	<title>Coming Soon </title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="css/page-essentials.min.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body class="generator">
+
+	<div id="main-wrapper" class="split-container abs-fs">
+		<div class="container-fluid">
+			<div class="row">
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Left Section
+				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				<div class="side-left bg-cover">
+					<div id="intro-content" class="col-lg-6 vflow bg-cover">
+
+						<div id="ambient-bg"> <!-- ## Start Ambient BG (Particles Animations) ## -->
+							<canvas id="bits"></canvas>
+						</div>
+
+						<div class="st-logo"> <!-- ## Start Logo part ## -->
+							<img src="https://playertournament.com/public/frontend_assets/images/logo.png" alt="Stomp" height="84">
+						</div>
+
+						<div class="st-desc">
+							<h2 class="fw600">WE ARE COMING SOON </h2>
+							<p>
+								<a id="mi-btn" href="http://playertournament.com/" class="st-btn btn-bordered">More Information</a>
+								
+								<a class="st-btn btn-fill" data-toggle="modal" data-target="#subscribe-page"onclick="myFunction()">Subscribe Now!</a>
+							</p>
+						</div>
+
+						<div class="st-footer"> <!-- ## Start Footer ## -->
+							<div class="social-btns">
+								<a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+								<a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+								<a class="btn google" href="#"><i class="fa fa-google"></i></a>
+								<a class="btn skype" href="#"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+				Right Section
+				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="revealer"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/page-essentials.min.js"></script>
+
+	<script src="js/sven-essentials.min.js"></script>
+
+	<script src="js/bits.min.js"></script>
+
+	<script src="js/main.min.js"></script>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-101945674-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".btn-fill").hover(function(){
+				$(".st-desc h2").animate({
+					left:'50px',
+					height:'150px',
+					width:'100%',
+					opacity: '0.5',
+				});
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		document.getElementsById(".btn-fill")
+	</script>
+
+</body>
+</html>
